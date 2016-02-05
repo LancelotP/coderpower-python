@@ -1,0 +1,30 @@
+{
+	"directions": "./directions.md",
+		"language": "python",
+		"version": "",
+		"editables": [
+			"./src/main.py"
+		],
+		"commands": {
+			"install": [
+				"npm install",
+			"npm test"
+			],
+			"run": "npm test"
+
+		},
+		"steps": [
+		{
+			"title": "should return true with one"
+		},
+		{
+			"title": "should return false with two"
+		},
+		{
+			"title": "subStringFinder() should return true if substring is in string"
+		},
+		{
+			"title": "subStringFinder() should return false if substring is not in string"
+		}
+		]
+}
